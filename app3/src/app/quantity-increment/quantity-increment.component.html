@@ -1,0 +1,16 @@
+
+<p>
+  quantity-increment works!
+</p>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<body>
+ <div class ="container text-center"  >
+   Food: <input type="text" id="food" /><br>
+   Qunatity:
+    <button type ="button" (click)="minus()" [disabled]="quantity ===0"><i class="fa fa-minus"></i></button> 
+   <input type="text" [value]="quantity">
+   <button type ="button" (click)="plus()"><i class="fa fa-plus"></i></button> <br>
+  
+  </div>
+</body>
