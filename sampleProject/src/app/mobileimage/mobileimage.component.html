@@ -1,0 +1,11 @@
+<div class="container">  
+  <div class="row p-5">  
+      <div class="card-deck">  
+          <div class="col-4 pb-2" *ngFor="let img of images;let i=index ">  
+              <div class="card ">  
+                  <img [routerLink]="['/mobiledescription', i]" src="{{img.mobilepic}}" class="card-img-top" width="300">   
+                  </div>  
+              </div>  
+          </div>  
+      </div>  
+  </div> 

@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">   
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+  </div>  
+</nav>  
+<!-- End of NavBar and cards section --> 
+<div class="container">  
+  <div class="card-deck">  
+      <div class="card " *ngIf="images != null">  
+          <div class="card-body">  
+              <div class="row">  
+                  <div class="col-6">  
+                      <img src="{{images.mobilepic}}" class="card-img-top" alt="Nokia" width="300">  
+                     </div>  
+                      <div class="col-6">  
+                          <h2> Phone Description </h2>  
+                          <h2 class="card-title">{{images.model}}</h2>  
+                          <div>  {{ images.modelOS }}  </div>  
+                          <div> {{images.modeldescription01}}  </div> 
+                           <br>    
+                        </div>  
+                </div>  
+              </div>  
+            </div>  
+          </div>  
+        </div>  

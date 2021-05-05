@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">   
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+  </div>  
+</nav>  
+<!-- End of NavBar and cards section --> 
+<div class="container">  
+  <div class="card-deck">  
+      <div class="card " *ngIf="movie != null">  
+          <div class="card-body">  
+              <div class="row">  
+                  <div class="col-6">  
+                      <img src="{{movie.moviepic}}" class="card-img-top" width="300">  
+                     </div>  
+                      <div class="col-6">  
+                          <h2>Movie</h2>  
+                          <h2 class="card-title">{{movie.moviename}}</h2>  
+                          <div>  {{ movie.moviegenre }}  </div>  
+                          <div> {{movie.moviedescription01}}  </div>  <br>    
+                        </div>  
+                </div>  
+              </div>  
+            </div>  
+          </div>  
+        </div>  
