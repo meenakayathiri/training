@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <div *ngFor="let fac of faculties; ">
+    {{fac.facultyName}}
+  </div>
+  <a href="home">Display Dr faculties</a> | <a href="contactus">Contact US</a> 
+
+<router-outlet></router-outlet>
